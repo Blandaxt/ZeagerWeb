@@ -1,0 +1,25 @@
+{
+  "name": "zeager",
+  "version": "1.0.0",
+  "description": "Zeager RPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blandaxt/ZeagerWeb.git"
+  },
+  "author": "Blandaxt <Lafume.alain@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Blandaxt/ZeagerWeb/issues"
+  },
+  "homepage": "https://github.com/Blandaxt/ZeagerWeb#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "foobar": "1.1.0",
+    "node": "^10.8.0",
+    "server": "1.0.18"
+  }
+}
