@@ -1,0 +1,13 @@
+{
+"companyName": "Blandaxt",
+"productName": "ZEAGER Version 0",
+"dataUrl": "zeager2.data.unityweb",
+"wasmCodeUrl": "zeager2.wasm.code.unityweb",
+"wasmFrameworkUrl": "zeager2.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "zeager2.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}
