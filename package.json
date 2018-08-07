@@ -36,6 +36,8 @@
     "passport": "0.4.0",
     "passport-local": "1.0.0",
     "path": "0.12.7",
+    "pg": "7.4.3",
+    "postgresql": "0.0.1",
     "request": "2.87.0",
     "server": "1.0.18",
     "tape": "4.9.1"
