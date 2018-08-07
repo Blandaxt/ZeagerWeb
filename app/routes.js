@@ -1,11 +1,23 @@
 module.exports = function(app, passport, db) {
 
 // normal routes ===============================================================
-
+    // const cool = require('cool-ascii-faces')
     // show the home page (will also have our login links)
     app.get('/', function(req, res) {
         res.render('index.ejs');
     });
+
+    app.get('/times', (req, res) => {
+      let result = ''
+      const times = process.env.TIMES || 5
+      for (i = 0; i < times; i++) {
+        result += i + ' '
+      }
+        res.send(result)
+      })
+
+    // app.get('/cool', function(req, res) {
+    //   res.render(cool()));}
 
     // barista SECTION =========================
     // app.get('/zeager', isLoggedIn, function(req, res) {

@@ -12,3 +12,5 @@ Dockerfile
 docker-compose.yml
 
 config/
+passport.js/
+database.js/
